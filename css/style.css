@@ -1,0 +1,21 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* common css end  */
+#headerpart{
+    height:150px ;
+    background: rgb(238, 159, 11);
+}
+.menuBar{
+    background-color: rgb(25, 211, 87);
+    height: 50px;
+}
