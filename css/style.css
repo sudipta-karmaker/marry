@@ -22,7 +22,7 @@ ul,ol{
   padding: 20px 0;
     position: fixed;
     top: 0;
-    
+    left: 0;
     width: 100%;
 }
 
@@ -123,3 +123,153 @@ ul,ol{
 }
 
 /* banner part end */
+
+ /* about part start */
+#aboutPart{
+    margin-top: 130px;
+   
+}
+.aboutContent{
+    padding-top: 130px;
+    padding-bottom: 157px;
+    background: #FFF8F3;
+    text-align: center;
+    
+}
+.aboutContent h2{
+    font-weight: 700;
+    font-size: 35px;
+    color:#181818
+}
+.aboutContent .thirdText{
+    font-weight: 400;
+    font-size: 18px;
+    color:#757575;
+    width: 762px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding: 25px 0;
+}
+.infoPart{
+    display: flex;
+   
+}
+.infoPart .info{
+    margin: 0 auto;
+}
+.infoPart .info h4{
+    font-weight: 400;
+    
+    color: #757575;
+}
+.infoPart .info p{
+    font-weight: 700;
+    font-size: 17px;
+    color: #474747;
+}
+
+ /* about part end */
+ #paragraphPart{
+    margin-top: 96px;
+ }
+ .prghContent{
+    text-align: center;
+
+ }
+ .prghContent h2{
+     font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    padding: 40px 0;
+ }
+ .prghContent p{
+     font-weight: 400;
+    font-size: 17px;
+    color: #757575;
+    line-height: 30px;
+    width: 831px;
+    margin: 0 auto;
+ }
+ #boxPart{
+    margin-top: 54px;
+  
+ }
+ .boxContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+ }
+ .boxContent .box{
+    background: #FFFFFF;
+    margin-right: 24px;
+    height: 293px;
+    width: 199px;
+
+ }
+
+ .boxContent .box img,h3,p{
+    padding: 10px;
+ }
+
+ .boxContent .box h3{
+   padding: 10px;
+   font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+
+ }
+ .boxContent .box p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+ }
+#resumeHeader{
+    margin-top: 140px;
+}
+.resumeContent{
+    text-align: center;
+}
+.resumeContent h2{
+     font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+ }
+ #resumeSummary{
+    margin-top: 135px;
+ }
+.summaryContent .box{
+    height: 724px;
+    width: 490px;
+    margin-right: 164px;
+    
+}
+.summaryContent{
+    display: flex;
+  
+}
+.summaryContent h2{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-left: 6px;
+}
+.summaryContent .txt{
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    margin-top: -12px;
+}
+.summaryContent p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+    line-height: 28px;
+}
+.summaryContent h3{
+    font-weight: 700;
+    font-size: 19px;
+    color: #474747;
+}
+
