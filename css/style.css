@@ -272,4 +272,101 @@ ul,ol{
     font-size: 19px;
     color: #474747;
 }
+.btnContent .btn a{
+    padding: 20px;
+  background: #FD6E0A;
+  width: 158px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #FD6E0A;
+  transition: .4s;
 
+}
+.btnContent .btn a:hover{
+    background: transparent;
+    color: #FD6E0A;
+}
+.btnContent{
+    display: flex;
+    
+}
+.btnContent .btn{
+    margin: 0 auto;
+}
+.btnContent .btn a i{
+    margin-right: 2px;
+}
+#footerPart{
+   background: #FFF8F3; 
+   padding-top: 148px;
+   padding-bottom: 122px;
+   margin-top: 110px;
+  
+}
+.footercontent{
+    display: flex;
+ justify-content: space-between;
+ text-align: left;
+}
+
+
+.footercontent .socialMedia{
+
+    width:535px;
+    height: 510px;
+}
+.footercontent .form{
+   
+   width: 520px;
+   height: 510px;
+  border-color: #FFFFFF;
+
+}
+.footercontent .socialMedia p{
+padding-top :10px;
+padding-bottom: 10px;
+font-weight: 400;
+font-size: 16px;
+color: #474747;
+line-height: 28px;
+}
+.footercontent .socialMedia h2{
+    margin-left: 10px;
+    font-weight:700;
+    font-size: 35px;
+    color: #181818;
+}
+.footercontent .form form input{
+   margin: 20px;
+   font-weight: 400;
+   font-size: 16px;
+   color: #757575;
+   line-height: 28px;
+}
+
+
+.footercontent .form a{
+  margin: 20px; 
+  font-weight: 700;
+  font-size: 20px;
+  background: #FD6E0A; 
+  color:white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #FD6E0A;
+  transition: .4s;
+}
+.footercontent .form a:hover{
+color:#FD6E0A ;
+background: transparent;
+}
+.footercontent .form h3{
+    margin-left:30px; ; 
+    color: #181818;
+    font-size: 35px;
+}
+.footercontent .form form .msg{
+    padding: 30px;
+}
