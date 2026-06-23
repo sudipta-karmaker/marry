@@ -190,41 +190,79 @@ ul,ol{
     width: 831px;
     margin: 0 auto;
  }
- #boxPart{
+ #cardPart{
     margin-top: 54px;
   
  }
- .boxContent{
+ .cardContent{
     display: flex;
     justify-content: space-between;
     align-items: center;
    
  }
- .boxContent .box{
-    background: #FFFFFF;
-    margin-right: 24px;
-    height: 293px;
-    width: 199px;
-
+ .cardOne{
+   padding: 30px;
+  background: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
  }
+ .cardOne h3{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+.cardOne p{
+  width: 188px;
+  line-height: 28px;
+}
+.cardTwo{
+   padding: 30px;
+  background: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+ .cardTwo h3{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+.cardTwo p{
+  width: 188px;
+  line-height: 28px;
+}
+.cardThree{
+   padding: 30px;
+  background: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+ .cardThree h3{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+.cardThree p{
+  width: 188px;
+  line-height: 28px;
+}
+.cardFour{
+   padding: 30px;
+  background: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+ .cardFour h3{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+.cardFour p{
+  width: 188px;
+  line-height: 28px;
+}
+ 
 
  .boxContent .box img,h3,p{
     padding: 10px;
  }
 
- .boxContent .box h3{
-   padding: 10px;
-   font-weight: 700;
-    font-size: 20px;
-    color: #181818;
-
- }
- .boxContent .box p{
-    font-weight: 400;
-    font-size: 16px;
-    color: #757575;
-    line-height: 28px;
- }
+ 
 #resumeHeader{
     margin-top: 140px;
 }
@@ -239,27 +277,40 @@ ul,ol{
  #resumeSummary{
     margin-top: 135px;
  }
-.summaryContent .box{
-    height: 724px;
-    width: 490px;
-    margin-right: 164px;
-    
+
+
+.boxOne{
+    border-bottom: 1px solid #757575;
+   
 }
+.boxTwo{
+    border-bottom: 1px solid #757575;
+     
+}
+.boxFour{
+    border-bottom: 1px solid #757575;
+    
+}.boxFive{
+    border-bottom: 1px solid #757575;
+   
+}
+
 .summaryContent{
     display: flex;
-  
+    gap: 20px;
+    padding: 5px;
 }
 .summaryContent h2{
     font-weight: 700;
     font-size: 25px;
     color: #474747;
-    margin-left: 6px;
+   
 }
 .summaryContent .txt{
     font-weight: 600;
     font-size: 16px;
     color: #757575;
-    margin-top: -12px;
+ 
 }
 .summaryContent p{
     font-weight: 400;
@@ -298,75 +349,59 @@ ul,ol{
 .btnContent .btn a i{
     margin-right: 2px;
 }
-#footerPart{
-   background: #FFF8F3; 
-   padding-top: 148px;
-   padding-bottom: 122px;
-   margin-top: 110px;
-  
+footer{
+  padding: 130px;
+  background: #FFF8F3;
 }
-.footercontent{
-    display: flex;
- justify-content: space-between;
- text-align: left;
+.footerPart{
+  display: flex;
+  justify-content: space-between;
 }
-
-
-.footercontent .socialMedia{
-
-    width:535px;
-    height: 510px;
+/* .footerLeft{
+  width: 50%;
+} */
+.footerLeft p{
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  line-height: 28px;
 }
-.footercontent .form{
-   
-   width: 520px;
-   height: 510px;
-  border-color: #FFFFFF;
-
-}
-.footercontent .socialMedia p{
-padding-top :10px;
-padding-bottom: 10px;
-font-weight: 400;
-font-size: 16px;
-color: #474747;
-line-height: 28px;
-}
-.footercontent .socialMedia h2{
-    margin-left: 10px;
-    font-weight:700;
+.footerLeft h3{
+    font-weight: 700;
     font-size: 35px;
     color: #181818;
 }
-.footercontent .form form input{
-   margin: 20px;
-   font-weight: 400;
-   font-size: 16px;
-   color: #757575;
-   line-height: 28px;
+.socialIcon i{
+color: #fd6e0a;
+font-size: 24px;
 }
-
-
-.footercontent .form a{
-  margin: 20px; 
-  font-weight: 700;
-  font-size: 20px;
-  background: #FD6E0A; 
-  color:white;
+.footerRight .common{
+  width: 461px;
+  background-color: white;
   padding: 20px;
-  border-radius: 5px;
-  border: 2px solid #FD6E0A;
-  transition: .4s;
+  margin-bottom: 20px;
+  border: none;
+  color:red;
+  font-weight: 400;
+font-size: 16px;
+color: #757575;  
 }
-.footercontent .form a:hover{
-color:#FD6E0A ;
-background: transparent;
+.footerRight ::placeholder{
+  color: #080808;
 }
-.footercontent .form h3{
-    margin-left:10px; ; 
-    color: #181818;
-    font-size: 35px;
+.sbmtbtn{
+background: #FD6E0A;
+padding: 20px 40px;
+color: white;
+font-size: 20px;
+ font-weight: 700;
+ border-radius: 5px;
+border: 2px solid #FD6E0A;
+transition: .4s;
 }
-.footercontent .form form .msg{
-    padding: 30px;
+
+.sbmtbtn:hover{
+    background: transparent;
+    color: #fd6e0a;
 }
